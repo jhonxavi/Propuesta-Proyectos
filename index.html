@@ -1,19 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación del Grupo</title>
+    <!-- Bootstrap CSS -->
     <link href="./styles.css" rel="stylesheet">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Presentación del Grupo</h1><br>
+        <div class="row">
+            <!-- Estudiante 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images\Cristian.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Cristian Alexander Erazo Pantoja</h5>
+                        <p class="card-text">Habilidades:</p>
+                        <ul>
+                            <li>Desarrollo Web (Laravel, Flask, Angular, php)</li>
+                            <li>Manejo de Bases de datos</li>
+                            <li>Gestión de proyectos mediante metodologías agiles (Scrum)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Estudiante 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images\Sotelo.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan David Sotelo Ramirez</h5>
+                        <p class="card-text">Habilidades:</p>
+                        <ul>
+                            <li>Bueno en redes de telecomunicaciones </li>
+                            <li>Habil para el manejo de servidores</li>
+                            <li>hacer código para mikrotik con python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Estudiante 3 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images\Jeison.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeison Daneiro Montenegro Cuasialpud</h5>
+                        <p class="card-text">Habilidades:</p>
+                        <ul>
+                            <li>bases de datos</li>
+                            <li>Python</li>
+                            <li>Herramientas colaborativas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Estudiante 4 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="images\yo.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Jhon Jaiber Ramirez Guerrero</h5>
+                        <p class="card-text">Habilidades:</p>
+                        <ul>
+                            <li>Desarrollo de paginas web (PHP, JavaSript, HTML, CSS )</li>
+                            <li>Comprensión de redes y sistemas operativos</li>
+                            <li>Dominio de bases de datos (MySQl, PostgreSQL)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+        <!-- Sección de las propuestas de proyecto -->
+        <div class="mt-5">
+            <h2 class="text-center">Propuestas de Proyecto</h2><br>
+            
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de gestión de alquiler de vehiculos</h5>
+                            <p class="card-text">Es una plataforma que automatiza el proceso de alquiler de automóviles, gestionando el inventario de vehículos, reservas, clientes, facturación y mantenimiento. Permite realizar reservas, controlar la disponibilidad de los vehículos, generar facturas, y registrar pagos, optimizando la operación de la empresa. Además, incluye reportes para analizar el rendimiento del negocio y asegurar el buen estado de los vehículos mediante la programación de mantenimientos.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de gestión de reservaciones de hotel</h5>
+                            <p class="card-text"> Es una solución tecnológica que permite a los hoteles gestionar reservas, check-in/check-out de huéspedes, asignación de habitaciones y facturación. Facilita la administración de clientes, genera facturas automáticas, integra servicios adicionales como restaurantes o lavandería, y ajusta tarifas dinámicamente según la demanda. Ayuda a mejorar la experiencia del huésped y optimiza la ocupación y eficiencia operativa del hotel.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de gestión de turismo</h5>
+                            <p class="card-text">Es una plataforma que centraliza la gestión de servicios turísticos, como la creación de paquetes de viaje, reservas de actividades, transportes, y alojamiento. Facilita la integración con proveedores, genera itinerarios personalizados, permite la facturación automática, y registra los pagos de los clientes. Además, proporciona análisis de datos para identificar tendencias y permite realizar campañas promocionales, mejorando la experiencia del cliente y la eficiencia operativa en el sector turístico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
